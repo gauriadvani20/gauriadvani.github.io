@@ -8,72 +8,54 @@
     <meta name="author" content="Information about the author here">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
-  
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
     <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <!-- Visit: [https://getbootstrap.com/docs/4.3/getting-started/introduction/](https://getbootstrap.com/docs/4.3/getting-started/introduction/) -->
   </head>
-  
   <body>
-
     <header id="header">
-      <img src="Profile.png">
+      <img src="Profile.png" alt="Profile Image">
       <h1>Gauri Advani</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+      <!-- Removed menu links as requested -->
     </header>
-   
     <div id="container">
       <div class="inner">
         <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
+          <!-- Removed Home, About and Contact headers and sections -->
+
+          <!-- Added About Me section -->
+          <section id="about-me">
+            <h2>About Me:</h2>
             <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
+              4.5 years of experience in Product Development, Product Launches and Stakeholder Management with a background in Business Administration from DTU has equipped me with the skills and knowledge to work as a Product Manager. I am passionate about creating and developing innovative solutions that addresses customer needs. As a Product Manager in Byju's, I led the launch of multiple B2C Platform and CMS products along with channelising Sales funnel (such as Workshops, Scholarships, AI based chatbot), handling Customer ratings and feedbacks, working cross-functionally and collaboratively with internal and external stakeholders.
             </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
+          </section>
+
+          <!-- Added buttons for Resume, Email, and LinkedIn -->
+          <section id="contact-buttons" style="margin-top: 20px;">
+            <button onclick="window.open('your-resume-link.pdf', '_blank')" style="margin-right: 10px;">Resume</button>
+            <button onclick="window.location.href='mailto:your.email@example.com'" style="margin-right: 10px;">
+              <img src="email-icon.png" alt="Email" style="width:20px; height:20px; vertical-align: middle;"> Email
+            </button>
+            <button onclick="window.open('https://linkedin.com/in/yourlinkedinprofile', '_blank')">
+              <img src="linkedin-icon.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align: middle;"> LinkedIn
+            </button>
+          </section>
+
         </div>
       </div>
     </div>
-
     <footer>  
       Footer region
     </footer>
-    
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
