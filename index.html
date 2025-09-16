@@ -12,12 +12,12 @@
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: [https://getbootstrap.com/docs/4.3/getting-started/introduction/](https://getbootstrap.com/docs/4.3/getting-started/introduction/) -->
   </head>
   <body>
     <header id="header">
@@ -28,8 +28,6 @@
     <div id="container">
       <div class="inner">
         <div id="content"> 
-          <!-- Removed Home, About and Contact headers and sections -->
-
           <!-- Added About Me section -->
           <section id="about-me">
             <h2>About Me:</h2>
@@ -37,18 +35,18 @@
               4.5 years of experience in Product Development, Product Launches and Stakeholder Management with a background in Business Administration from DTU has equipped me with the skills and knowledge to work as a Product Manager. I am passionate about creating and developing innovative solutions that addresses customer needs. As a Product Manager in Byju's, I led the launch of multiple B2C Platform and CMS products along with channelising Sales funnel (such as Workshops, Scholarships, AI based chatbot), handling Customer ratings and feedbacks, working cross-functionally and collaboratively with internal and external stakeholders.
             </p>
           </section>
-
-          <!-- Added buttons for Resume, Email, and LinkedIn -->
+          <!-- Buttons for Resume, Email, and LinkedIn with icons -->
           <section id="contact-buttons" style="margin-top: 20px;">
-            <button onclick="window.open('Gauri-Advani-Resume.pdf', '_blank')" style="margin-right: 10px;">Resume</button>
-            <button onclick="window.location.href='mailto:gauriadvani20@gmail.com'" style="margin-right: 10px;">
-              <img src="email-icon.png" alt="Email" style="width:20px; height:20px; vertical-align: middle;"> Email
+            <button onclick="window.open('Gauri Advani Resume.pdf', '_blank')" style="margin-right: 10px; padding: 10px 15px; font-size: 16px; cursor: pointer;">
+              <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume
             </button>
-            <button onclick="window.open('https://www.linkedin.com/in/gauri-advani-87ba73148', '_blank')">
-              <img src="linkedin-icon.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align: middle;"> LinkedIn
+            <button onclick="window.location.href='mailto:gauriadvani20@gmail.com'" style="margin-right: 10px; padding: 10px 15px; font-size: 16px; cursor: pointer;">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Email
+            </button>
+            <button onclick="window.open('https://www.linkedin.com/in/gauri-advani-87ba73148', '_blank')" style="padding: 10px 15px; font-size: 16px; cursor: pointer;">
+              <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
             </button>
           </section>
-
         </div>
       </div>
     </div>
